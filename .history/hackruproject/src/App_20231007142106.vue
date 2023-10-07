@@ -1,0 +1,36 @@
+<template>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js Apps"/>
+</template>
+
+<script>
+//import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  // name: 'App',
+  // components: {
+  //   HelloWorld
+  // }
+  computed: {
+    username() {
+      return this.$store.state.username
+    },
+  },
+  methods: {
+    setUsername() {
+      this.$store.commit('setUsername', 'John Doe')
+    },
+  },
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
