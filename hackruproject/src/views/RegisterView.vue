@@ -19,6 +19,22 @@
                 <input type="password" class="form__input" autofocus placeholder="Confirm password">
                 <div class="form__input-error-message"></div>
             </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Cardholder Name">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Credit Card Number">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="month" id="start" name="start" min="2024-03" value="2024-05" />
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="CVV">
+                <div class="form__input-error-message"></div>
+            </div>
             <button class="form__button" type="submit">Continue</button>
             <p class="form__text">
             </p>
