@@ -24,7 +24,6 @@
             </div>
             <button class="form__button" type="submit">Continue</button>
             <p class="form__text">
-                <a class="form form--hidden" href="RegisterView.vue" id="login">Don't have an account? Register</a>
             </p>
         </form>
         

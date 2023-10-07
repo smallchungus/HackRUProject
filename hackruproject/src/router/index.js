@@ -25,16 +25,6 @@ const routes = [
     name: 'register',
     component: () => import(/* webpackChunkName: "register" */'../views/RegisterView.vue')
   },
-  {
-    path: '/genomeupload',
-    name: 'genomeupload',
-    component: () => import(/* webpackChunkName: "genomeupload" */'../views/GenomeUploadView.vue')
-  },
-  {
-    path: '/genomevisualization',
-    name: 'genomevisualization',
-    component: () => import(/* webpackChunkName: "genomevisualization" */'../views/GenomeVisualizationView.vue')
-  }
 ]
 
 const router = createRouter({

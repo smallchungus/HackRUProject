@@ -21,7 +21,6 @@
             </div>
             <button class="form__button" type="submit">Continue</button>
             <p class="form__text">
-                <a class="login" href="LoginView.vue" id="login">Already have an account? Sign in</a>
             </p>
         </form>
     </div>
