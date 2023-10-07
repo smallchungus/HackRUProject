@@ -23,7 +23,5 @@ const router = VueRouter.createRouter({
 //4. Create and mount the root instance
 const app = Vue.createApp({})
 app.use(router) 
-app.mount('#app')
 
-
-//createApp(App).mount('#app')
+createApp(App).mount('#app')

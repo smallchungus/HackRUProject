@@ -24,6 +24,4 @@ const router = VueRouter.createRouter({
 const app = Vue.createApp({})
 app.use(router) 
 app.mount('#app')
-
-
 //createApp(App).mount('#app')

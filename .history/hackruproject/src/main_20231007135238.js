@@ -12,18 +12,7 @@ const About= {template: '<div>About</div>'}
 const routes = [
     {path: '/home', component: Home},
     {path: '/about', component: About}
-]
-
-//3. Create the router instance and pass the 'routes' option
-const router = VueRouter.createRouter({
-    history: VueRouter.createWebHistory(),
-    routes //short for 'routes: routes'
-})
-
-//4. Create and mount the root instance
-const app = Vue.createApp({})
-app.use(router) 
-app.mount('#app')
+    
 
 
-//createApp(App).mount('#app')
+createApp(App).mount('#app')

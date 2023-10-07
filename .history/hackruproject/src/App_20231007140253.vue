@@ -15,12 +15,7 @@ export default {
     username() {
       return this.$store.state.username
     },
-  },
-  methods: {
-    setUsername() {
-      this.$store.commit('setUsername', 'John Doe')
-    },
-  },
+  }
 }
 </script>
 

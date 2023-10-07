@@ -14,13 +14,9 @@ export default {
   computed: {
     username() {
       return this.$store.state.username
-    },
-  },
-  methods: {
-    setUsername() {
-      this.$store.commit('setUsername', 'John Doe')
-    },
-  },
+      
+    }
+  }
 }
 </script>
 

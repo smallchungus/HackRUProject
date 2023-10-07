@@ -7,20 +7,10 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  // name: 'App',
-  // components: {
-  //   HelloWorld
-  // }
-  computed: {
-    username() {
-      return this.$store.state.username
-    },
-  },
-  methods: {
-    setUsername() {
-      this.$store.commit('setUsername', 'John Doe')
-    },
-  },
+  name: 'App',
+  components: {
+    HelloWorld
+  }
 }
 </script>
 
