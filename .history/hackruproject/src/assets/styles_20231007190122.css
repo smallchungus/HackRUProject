@@ -48,8 +48,6 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 16px;
-
   }
   
   input[type="file"],
@@ -64,8 +62,6 @@ html, body {
     font-size: 16px;
     border: 1px solid #ccc;
     outline: none;
-    margin-bottom: 16px;
-
 
   }
   button[type="submit"]{
@@ -98,4 +94,10 @@ html, body {
     color: #fff;
   }
 
-
+  .input-group {
+    margin-bottom: 16px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 16px;
+  }

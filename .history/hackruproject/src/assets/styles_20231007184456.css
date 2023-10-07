@@ -1,12 +1,10 @@
-html, body {
-    background-color: #f5f5f5;
-  }
 #app {
   
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    color: #2c3e50;
   }
   
   nav {
@@ -21,7 +19,6 @@ html, body {
   
   nav a.router-link-exact-active {
     color: #42b983;
-
   }
   .home-page {
     display: flex;
@@ -29,6 +26,7 @@ html, body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #f5f5f5;
   }
   
   h1 {
@@ -48,44 +46,21 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 16px;
-
   }
   
-  input[type="file"],
-  input[type="text"],
-  input[type="password"],
-  input[type="month"] {
+  input {
     width: 200px;
     margin: 0 16px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    padding: 10px 16px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    outline: none;
-    margin-bottom: 16px;
-
-
   }
-  button[type="submit"]{
-    width: 200px;
-    margin: 0 16px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    padding: 10px 16px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    outline: none;
-  }
+  
   .button {
     background-color: #42b983;
     color: #fff;
     padding: 10px 16px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
   }
   
   .button:hover {
@@ -93,9 +68,11 @@ html, body {
     color: #42b983;
   }
   
-  .button:active {
+  .button.active {
     background-color: #2c3e50;
     color: #fff;
   }
-
-
+  
+  .error {
+    color: #ff6b6b;
+  }
