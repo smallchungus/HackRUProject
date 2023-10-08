@@ -92,7 +92,7 @@ color: #2C3E50;
 .input-group {
 margin-top: 24px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 margin-bottom: 16px;
 }
@@ -144,52 +144,4 @@ color: #42B983;
 .button:active {
 background-color: #2C3E50;
 color: #fff;
-}
-
-.about {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.about h1 {
-  font-size: 50px;
-  line-height: 60px;
-  margin-bottom: 20px;
-}
-
-.about h2 {
-  font-size: 30px;
-  line-height: 40px;
-  margin-bottom: 20px;
-}
-
-.about h3 {
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 20px;
-}
-
-.about p {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.about students {
-  margin-top: 40px;
-}
-
-.about students h3 {
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-
-.about students ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.about students li {
-  margin-bottom: 10px;
 }

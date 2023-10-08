@@ -33,8 +33,7 @@
             </div>
             <!-- <button class="form__button" @click="store">Continue</button>
             <p class="form__text"> -->
-              <button class="form__button" type="submit">Continue</button>
-            <p class="form__text">
+              
             </p>
         </form>
     </div>

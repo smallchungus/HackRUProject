@@ -5,7 +5,9 @@
   </div>
     <p>Upload your protein sequence to make new discoveries.</p>
       <div class="input-group">
-      <input id = peptidetext v-model="protein" type = "text" autofocus placeholder="Input Your Protein Here" />
+      <!-- <input id = peptidetext v-model="protein" type = "text" autofocus placeholder="Input Your Protein Here" maxlength=400  rows="6" cols="50" width="400px">
+      <input id = proteintext v-model="peptide" type = "text" autofocus placeholder="Input Your Peptide Here" maxlength=100 rows="6" cols="50" width = "1000px"> -->
+      
       <input id = proteintext v-model="peptide" type = "text" autofocus placeholder="Input Your Peptide Here" />
       <button type="submit" @click="checkInput">Get My Results</button>
       </div>
