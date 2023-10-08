@@ -25,17 +25,8 @@ body {
   }
   
   nav a.router-link-exact-active {
-    color: #108f88;
+    color: #106662;
 
-  }
-  .website-name {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
   }
   .home-page {
 

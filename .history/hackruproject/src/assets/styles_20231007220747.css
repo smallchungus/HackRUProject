@@ -28,7 +28,7 @@ body {
     color: #108f88;
 
   }
-  .website-name {
+  h1 {
     position: absolute;
     top: 0;
     left: 0;

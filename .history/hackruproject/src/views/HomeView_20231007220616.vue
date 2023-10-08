@@ -1,12 +1,14 @@
 <template>
   <div class="home-page">
-    <h1>PeptideMapper</h1>
+    <h1>Modern Genome App</h1>
     <p>Upload your genomic sequence to visualize it and make new discoveries.</p>
 
     <div class="input-group">
       <!-- <input type="file" id="genome-file-input" class="file-upload"/> -->
       <input type="text" id="genome-sequence-input" />
-
+      <div class="website-name">
+  PeptideMapper
+</div>
       <button type="submit">Confirm</button>
     </div>
   </div>
