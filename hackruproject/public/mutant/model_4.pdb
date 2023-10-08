@@ -1,0 +1,90 @@
+REMARK Number:  4
+REMARK Cluster:  1  4
+REMARK Ligand Name   :  peptide_1.pdb
+REMARK ITScore       :  -219.374
+REMARK RMSD          :    97.313
+MODEL    4
+ATOM      1  N   CYS B   1      -6.271 -19.752 -15.601
+ATOM      2  CA  CYS B   1      -6.935 -18.573 -16.162
+ATOM      3  C   CYS B   1      -5.928 -17.428 -16.241
+ATOM      4  O   CYS B   1      -5.720 -16.712 -15.265
+ATOM      5  CB  CYS B   1      -8.116 -18.113 -15.321
+ATOM      6  SG  CYS B   1      -8.601 -16.450 -15.850
+ATOM      7  N   PHE B   2      -5.273 -17.310 -17.395
+ATOM      8  CA  PHE B   2      -4.274 -16.264 -17.610
+ATOM      9  C   PHE B   2      -4.948 -15.068 -18.259
+ATOM     10  O   PHE B   2      -5.825 -15.225 -19.122
+ATOM     11  CB  PHE B   2      -3.155 -16.759 -18.530
+ATOM     12  CG  PHE B   2      -2.249 -17.776 -17.901
+ATOM     13  CD1 PHE B   2      -1.317 -17.394 -16.956
+ATOM     14  CD2 PHE B   2      -2.291 -19.105 -18.310
+ATOM     15  CE1 PHE B   2      -0.412 -18.319 -16.415
+ATOM     16  CE2 PHE B   2      -1.402 -20.041 -17.786
+ATOM     17  CZ  PHE B   2      -0.456 -19.646 -16.833
+ATOM     18  N   PHE B   3      -4.582 -13.870 -17.805
+ATOM     19  CA  PHE B   3      -5.153 -12.630 -18.332
+ATOM     20  C   PHE B   3      -4.256 -12.108 -19.439
+ATOM     21  O   PHE B   3      -3.022 -12.190 -19.348
+ATOM     22  CB  PHE B   3      -5.253 -11.567 -17.236
+ATOM     23  CG  PHE B   3      -6.304 -11.850 -16.203
+ATOM     24  CD1 PHE B   3      -7.642 -11.684 -16.500
+ATOM     25  CD2 PHE B   3      -5.939 -12.217 -14.910
+ATOM     26  CE1 PHE B   3      -8.632 -11.871 -15.523
+ATOM     27  CE2 PHE B   3      -6.905 -12.408 -13.924
+ATOM     28  CZ  PHE B   3      -8.259 -12.233 -14.231
+ATOM     29  N   TRP B   4      -4.873 -11.680 -20.507
+ATOM     30  CA  TRP B   4      -4.202 -10.903 -21.578
+ATOM     31  C   TRP B   4      -4.891  -9.583 -21.739
+ATOM     32  O   TRP B   4      -6.127  -9.533 -21.708
+ATOM     33  CB  TRP B   4      -4.299 -11.608 -22.882
+ATOM     34  CG  TRP B   4      -3.398 -12.837 -23.127
+ATOM     35  CD1 TRP B   4      -2.282 -12.848 -23.902
+ATOM     36  CD2 TRP B   4      -3.610 -14.144 -22.607
+ATOM     37  NE1 TRP B   4      -1.789 -14.190 -23.898
+ATOM     38  CE2 TRP B   4      -2.586 -14.948 -23.127
+ATOM     39  CE3 TRP B   4      -4.601 -14.714 -21.751
+ATOM     40  CZ2 TRP B   4      -2.469 -16.314 -22.846
+ATOM     41  CZ3 TRP B   4      -4.456 -16.098 -21.464
+ATOM     42  CH2 TRP B   4      -3.433 -16.861 -21.996
+ATOM     43  N   LYS B   5      -4.141  -8.528 -21.971
+ATOM     44  CA  LYS B   5      -4.690  -7.205 -22.281
+ATOM     45  C   LYS B   5      -3.757  -6.612 -23.301
+ATOM     46  O   LYS B   5      -2.578  -6.985 -23.363
+ATOM     47  CB  LYS B   5      -4.645  -6.299 -21.044
+ATOM     48  CG  LYS B   5      -5.611  -6.586 -19.943
+ATOM     49  CD  LYS B   5      -5.396  -5.613 -18.746
+ATOM     50  CE  LYS B   5      -6.221  -6.007 -17.565
+ATOM     51  NZ  LYS B   5      -5.921  -5.058 -16.444
+ATOM     52  N   THR B   6      -4.248  -5.681 -24.144
+ATOM     53  CA  THR B   6      -3.397  -5.176 -25.227
+ATOM     54  C   THR B   6      -3.429  -3.661 -25.251
+ATOM     55  O   THR B   6      -4.513  -3.086 -25.151
+ATOM     56  CB  THR B   6      -3.845  -5.703 -26.604
+ATOM     57  OG1 THR B   6      -3.855  -7.134 -26.573
+ATOM     58  CG2 THR B   6      -2.851  -5.302 -27.687
+ATOM     59  N   PHE B   7      -2.258  -3.052 -25.381
+ATOM     60  CA  PHE B   7      -2.072  -1.611 -25.479
+ATOM     61  C   PHE B   7      -1.341  -1.324 -26.788
+ATOM     62  O   PHE B   7      -0.458  -2.068 -27.220
+ATOM     63  CB  PHE B   7      -1.234  -1.079 -24.295
+ATOM     64  CG  PHE B   7      -1.997  -1.243 -22.981
+ATOM     65  CD1 PHE B   7      -1.998  -2.463 -22.315
+ATOM     66  CD2 PHE B   7      -2.743  -0.181 -22.471
+ATOM     67  CE1 PHE B   7      -2.754  -2.603 -21.155
+ATOM     68  CE2 PHE B   7      -3.489  -0.339 -21.313
+ATOM     69  CZ  PHE B   7      -3.495  -1.548 -20.662
+ATOM     70  N   SER B   8      -1.722  -0.179 -27.419
+ATOM     71  CA  SER B   8      -0.979   0.319 -28.578
+ATOM     72  C   SER B   8      -0.633   1.777 -28.356
+ATOM     73  O   SER B   8      -1.298   2.481 -27.578
+ATOM     74  CB  SER B   8      -1.768   0.065 -29.855
+ATOM     75  OG  SER B   8      -2.841   0.952 -29.975
+ATOM     76  N   CYS B   9       0.369   2.239 -29.072
+ATOM     77  CA  CYS B   9       0.869   3.624 -28.922
+ATOM     78  C   CYS B   9       0.206   4.617 -29.843
+ATOM     79  O   CYS B   9      -0.518   4.278 -30.800
+ATOM     80  CB  CYS B   9       2.392   3.698 -29.131
+ATOM     81  SG  CYS B   9       2.940   3.199 -30.809
+ATOM     82  OXT CYS B   9       0.334   5.851 -29.716
+TER
+ENDMDL

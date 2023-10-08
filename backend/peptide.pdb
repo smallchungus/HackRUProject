@@ -1,0 +1,32 @@
+HEADER                                            18-OCT-22                     
+TITLE     ESMFOLD V1 PREDICTION FOR INPUT
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   ZEMING LIN, HALIL AKIN, ROSHAN RAO, BRIAN HIE, ZHONGKAI ZHU,
+REMARK   1  AUTH 2 WENTING LU, NIKITA SMETANIN, ROBERT VERKUIL, ORI KABELI,
+REMARK   1  AUTH 3 YANIV SHMUELI, ALLAN DOS SANTOS COSTA,
+REMARK   1  AUTH 4 MARYAM FAZEL-ZARANDI, TOM SERCU, SALVATORE CANDIDO,
+REMARK   1  AUTH 5 ALEXANDER RIVES
+REMARK   1  TITL   EVOLUTIONARY-SCALE PREDICTION OF ATOMIC LEVEL PROTEIN
+REMARK   1  TITL 2 STRUCTURE WITH A LANGUAGE MODEL
+REMARK   1  REF                                                                 
+REMARK   1  REFN                                                                
+REMARK   1  PMID                                                                
+REMARK   1  DOI    10.1101/2022.07.20.500902                                    
+REMARK   1                                                                      
+REMARK   1 LICENSE AND DISCLAIMERS                
+REMARK   1 ESM METAGENOMIC ATLAS DATA IS AVAILABLE UNDER
+REMARK   1 A CC-BY-4.0 LICENSE FOR ACADEMIC AND COMMERCIAL USE.
+REMARK   1 COPYRIGHT (C) META PLATFORMS, INC. ALL RIGHTS RESERVED.
+REMARK   1 USE OF THE ESM METAGENOMIC ATLAS DATA IS SUBJECT
+REMARK   1 TO THE META OPEN SOURCE TERMS OF USE AND PRIVACY POLICY.
+ATOM      1  N   ALA A   1     -14.688 -25.836 -21.553  1.00  0.95           N  
+ATOM      2  CA  ALA A   1     -14.170 -26.731 -20.521  1.00  0.95           C  
+ATOM      3  C   ALA A   1     -12.653 -26.863 -20.621  1.00  0.95           C  
+ATOM      4  CB  ALA A   1     -14.828 -28.105 -20.628  1.00  0.95           C  
+ATOM      5  O   ALA A   1     -11.967 -26.997 -19.605  1.00  0.95           O  
+ATOM      6  N   ALA A   2     -15.167 -16.665 -19.562  1.00  0.19           N  
+ATOM      7  CA  ALA A   2     -14.082 -15.846 -20.096  1.00  0.14           C  
+ATOM      8  C   ALA A   2     -13.114 -15.430 -18.992  1.00  0.19           C  
+ATOM      9  CB  ALA A   2     -14.642 -14.613 -20.800  1.00  0.18           C  
+ATOM     10  O   ALA A   2     -11.898 -15.411 -19.198  1.00  0.18           O  
