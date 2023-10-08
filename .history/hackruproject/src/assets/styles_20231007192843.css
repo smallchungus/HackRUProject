@@ -53,11 +53,12 @@ html, body {
     margin: 0 auto;
 
   }
-
+  
+  input[type="file"],
   input[type="text"],
   input[type="password"],
   input[type="month"] {
-    width: 200px;
+    width: 100%;
     margin: 0 16px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
@@ -67,12 +68,13 @@ html, body {
     outline: none;
     margin-bottom: 16px;
     text-align: center;
-  }
 
-  #genome-sequence-input {
-    width: 800px;
-  }
 
+
+  }
+  input[type="file"]::-webkit-file-upload-button {
+    text-align: center;
+  }
   button[type="submit"]{
     width: 200px;
     margin: 0 16px;

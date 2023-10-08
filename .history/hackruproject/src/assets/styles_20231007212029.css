@@ -53,6 +53,7 @@ html, body {
     margin: 0 auto;
 
   }
+  
 
   input[type="text"],
   input[type="password"],
@@ -69,9 +70,8 @@ html, body {
     text-align: center;
   }
 
-  #genome-sequence-input {
-    width: 800px;
-  }
+
+  #genome
 
   button[type="submit"]{
     width: 200px;

@@ -53,6 +53,7 @@ html, body {
     margin: 0 auto;
 
   }
+  
 
   input[type="text"],
   input[type="password"],
@@ -69,8 +70,10 @@ html, body {
     text-align: center;
   }
 
-  #genome-sequence-input {
-    width: 800px;
+  input[type="file"],
+
+  input[type="file"]::-webkit-file-upload-button {
+    text-align: center;
   }
 
   button[type="submit"]{

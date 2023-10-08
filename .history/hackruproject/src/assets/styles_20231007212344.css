@@ -70,7 +70,7 @@ html, body {
   }
 
   #genome-sequence-input {
-    width: 800px;
+    width: 400px;
   }
 
   button[type="submit"]{

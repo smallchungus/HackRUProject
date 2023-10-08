@@ -4,8 +4,9 @@
     <p>Upload your genomic sequence to visualize it and make new discoveries.</p>
 
     <div class="input-group">
-      <!-- <input type="file" id="genome-file-input" class="file-upload"/> -->
-      <input type="text" id="genome-sequence-input" />
+      <input type="file" id="files" class="hidden"/>
+<label for="files">Select file</label>
+      <input type="text" id="text-input" />
       <button type="submit">Confirm</button>
     </div>
   </div>
