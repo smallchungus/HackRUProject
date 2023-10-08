@@ -13,6 +13,8 @@
 </template> 
 
 <script>
+import axios from 'axios';
+
 export default
 {
   data()
@@ -24,7 +26,7 @@ export default
   },
 methods: 
 {
- checkInput() 
+ async checkInput() 
   {
     let proLength = this.protein.length;
     let pepLength= this.peptide.length;
@@ -51,10 +53,6 @@ methods:
         return; // Stop processing if a restricted letter is found
       }
     }
-<<<<<<< Updated upstream
-    alert("Valid Input")
-    }
-=======
   
     const response = await axios.post('http://localhost:5000/model/', {'protein/peptide': [this.protein, this.peptide]});
     this.confidence = response.data['confidence'];
@@ -62,8 +60,6 @@ methods:
 
 
   }
-
->>>>>>> Stashed changes
   }
 }
 
